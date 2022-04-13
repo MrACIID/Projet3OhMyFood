@@ -107,6 +107,22 @@ box-shadow: 0 5px 10px -2px #afafaf;
 cursor: pointer;
 }
 
+.triple .etape {
+  margin-top: -58px;
+  position: absolute;
+  font-family: "Roboto",
+  sans-serif;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #9356dc;
+  width: 14px;
+  border-radius: 50%;
+  border-width: 5px;
+  padding-left: 6px;
+  padding-top: 2px;
+  height: 17px;
+}
+
 .choixrestau :hover{
   color: purple;
   background-color: #efe2ff;
