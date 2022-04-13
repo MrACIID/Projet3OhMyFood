@@ -152,12 +152,14 @@ main h6 {
   font-size: 1.3rem;
   margin-bottom: 30px;
 }
+
 .restaurants {
   display: flex;
   flex-direction: column;
-  gap:60px;
+  gap:10px;
   margin-bottom: 60px;
 }
+
 .cardrestau img {
   object-fit: cover;
   width: 100%;
@@ -166,20 +168,48 @@ main h6 {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-color: red;
+  border-color: white;
   border-radius: 7%;
   border-bottom-width: 60px;
+  box-shadow: 0 5px 10px -2px #afafaf;
 }
 
-.cardrestau legend {
+.cardrestau p {
   display: flex;
   flex-direction: column;
   margin-top: -50px;
   margin-left: 30px;
   font-family: "Roboto",
   sans-serif;
-  
+  width: 140px;
 }
+
+.coeur {
+  position: absolute;
+  width: 35px;  
+  height: 35px;
+  margin-left: 240px;
+  margin-top: -55px;
+}
+
+.like :hover {
+  color: transparent;
+  -webkit-background-clip: text ;
+  background-clip: text;
+  background-image: linear-gradient( #9356dc ,#ff79da );
+}
+
+.like {
+  color: transparent;
+  position: absolute;
+}
+.nolike {
+  position: absolute;
+}
+
+
+
+
 
 
 /* footer */
