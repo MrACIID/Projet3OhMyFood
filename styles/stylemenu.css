@@ -1,0 +1,44 @@
+body {
+    margin-left: 10px;
+}
+
+
+/* HEADER */
+
+.boutonretour {
+    color: black;
+    position: absolute;
+  
+    margin-left: 10px;
+    font-size: 1.3rem;
+    width: 5%;
+}
+.boutonretour :hover {
+    color: blueviolet;
+}
+
+.logo {
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+    
+}
+.logo img {
+    width: 100%;
+    max-width: 200px  
+}
+
+
+/* SUBHEAD */
+
+.subheadimg {
+    width: 100vw;
+    margin-top: 10px;
+    margin-left: -10px;
+    
+}
+.subheadimg img {
+    width: 100%;
+}
+
+/* MENU */
