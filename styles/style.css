@@ -219,8 +219,7 @@ transition: all 350ms ease-in-out;
 }
 
 .nolike i {
-  position: absolute;
-  
+  position: absolute; 
 }
 
 
@@ -268,4 +267,10 @@ footer h6 {
 footer p {
   margin-left: 30px;
   margin-bottom: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
