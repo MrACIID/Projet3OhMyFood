@@ -34,13 +34,179 @@ body {
 .subheadimg {
     width: 100vw;   
     margin-top: 10px;
-    margin-left: -10px;
-    
+    margin-left: -10px;  
 }
+
 .subheadimg img {
     object-fit: cover;
     width: 100%;
-    height: 250px;
+    height: 250px 
 }
 
 /* MENU */
+
+.menu {
+    position: absolute;
+    background-color: white;
+    padding-top: 20px;  
+    border-radius: 30px;
+    margin-top: -30px;
+    margin-left: -10px; 
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.titre h1 { 
+    font-family:   'Shrikhand' , sans-serif;
+    font-weight: lighter;   
+    margin-left: 20px;
+}
+
+/* ENTREE*/
+
+.entree h2 { 
+    font-family: 'Roboto' , sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+margin-left: 20px;
+margin-bottom: 0px;
+border-style: solid;
+border-width: 3px;
+border-top: none;
+border-right: none;
+border-left: none;
+width: 40px;
+padding-bottom: 10px;
+border-color: #99E2D0;
+}
+
+.entree {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.coeur {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 80%;
+    margin-top: -54px;
+}
+
+.like :hover {
+    opacity: 1;
+}
+
+.like i {
+    position: absolute;
+    opacity: 0;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(#9356dc, #ff79da);
+    transition: all 350ms ease-in-out;
+}
+
+.nolike i {
+    position: absolute;
+}
+
+
+
+.boutonentree {
+  background-color: white;
+font-family: 'Roboto',
+sans-serif;
+width: 290px;
+height: 55px;
+margin-left: 20px;
+border-radius: 15px;
+box-shadow: 0 5px 10px -2px #afafaf;
+cursor: pointer;
+}
+
+.description {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.nom {
+    font-weight: bold;
+    
+}
+.ingredient {
+    margin-top: -10px;
+    font-size: 0.8rem;
+    
+}
+.prix {
+    font-weight: bold;
+    margin-left: 240px;
+    margin-top: -35px;
+}
+
+/* BOUTON COMMANDER */
+
+.boutoncommande button {
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(180deg, #ff79da, #9356dc);
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 90%;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 5px 10px -2px #afafaf;
+}
+
+.boutoncommande {
+    margin-left: 22%;
+    width: 60%;
+}
+
+.boutoncommande :hover {
+    background: linear-gradient(180deg, #fd95e0, #996bd1);
+    ;
+}
+
+
+footer {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #303030;
+    font-family: "Roboto",
+        sans-serif;
+    color: white;
+    width: 100vw;
+    margin-left: -10px;
+    margin-top: 135vh;
+    padding-bottom: 20px;
+    margin-bottom: -10px;   
+}
+
+footer h5 {
+    font-family: "Shrikhand", sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+footer p {
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
