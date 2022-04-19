@@ -66,7 +66,7 @@ body {
 
 /* ENTREE*/
 
-.entree h2 { 
+.repas h2 , h3 , h4  { 
     font-family: 'Roboto' , sans-serif;
     font-weight: lighter;
     font-size: 1rem;
@@ -82,7 +82,7 @@ padding-bottom: 10px;
 border-color: #99E2D0;
 }
 
-.entree {
+.repas {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -117,7 +117,7 @@ border-color: #99E2D0;
 
 
 
-.boutonentree {
+.boutonmenu {
   background-color: white;
 font-family: 'Roboto',
 sans-serif;
@@ -127,6 +127,7 @@ margin-left: 20px;
 border-radius: 15px;
 box-shadow: 0 5px 10px -2px #afafaf;
 cursor: pointer;
+animation: animmenu 1s ease-in 1 forwards;
 }
 
 .description {
@@ -175,6 +176,21 @@ cursor: pointer;
     ;
 }
 
+/* animation */
+
+@keyframes animmenu {
+0% {
+    opacity: 0;
+    transform: translateY(-10%);
+}
+
+100% {
+    opacity: 1;
+}
+
+}
+
+/* footer */
 
 footer {
     display: flex;
