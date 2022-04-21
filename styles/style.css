@@ -4,37 +4,52 @@ body {
 /* loader spinner */
 
 .loader {
-  display:flex;
-  position: absolute;
-  margin-top: 200px;
-  margin-left: 40%;
+ position: fixed;
+top: 50%;
+left: 48%;
+width: 50px;
+height: 50px;
+margin-top: -50px;
+margin-left: -30px;
+border: 10px solid #dddd;
+border-top-color: #b816ce;
+border-radius: 50%;
+animation: loader 3s ease-in 1 forwards;
+z-index: 2;
 }
 
-.loader::after {
-  content:"";
-  width: 50px;
-  height: 50px;
-  border: 10px solid #dddd;
-  border-top-color: #b816ce;
-  border-radius: 50%;
-  animation: loader 3s ease-in 1 forwards;
 
+.loaderbg {
+  content: "";
+  position: fixed;
+  margin-top: -140px;
+  margin-left: -10px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(227, 194, 253);
+  animation: opacityloader 1s forwards;
+  animation-delay: 2s;
+  opacity: 0.5;
+  z-index: 1;
 }
-
 
 @keyframes loader {
-
   to {
     transform: rotate(3turn);
-    width: 0;
-    height: 0;
     overflow: hidden;
   }
 
 100% {
   opacity: 0;
+  visibility: hidden;
+}
 }
 
+@keyframes opacityloader {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 
