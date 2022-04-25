@@ -121,7 +121,7 @@ border-color: #99E2D0;
 background-color: white;
 font-family: 'Roboto',
 sans-serif;
-width: 290px;
+width: 90%;
 height: 70px;
 margin-left: 20px;
 border-radius: 15px;
@@ -163,7 +163,7 @@ opacity: 0;
 
 .prix {
     font-weight: bold;
-    margin-left: 240px;
+    margin-left: 84%;
     margin-top: -31px;
     transition: all 0.5s ease;
 }
@@ -194,7 +194,7 @@ opacity: 0;
 }
 
 .boutonmenu:hover .prix {
-    margin-left: 180px;
+    margin-left: 65%;
     transition: 0.5s ease;
 }
 

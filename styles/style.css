@@ -58,12 +58,14 @@ z-index: 2;
 .logo img {
   width: 50%;
   max-width: 200px;
-  margin-left: 25%;
   margin-top: 20px;
   padding-bottom: 10px;
 }
 
 .logo {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
  box-shadow: 0 4px 2px -2px #afafaf;
   width: 100vw;
   margin-left: -10px;
@@ -80,22 +82,30 @@ z-index: 2;
   height: 60px;
 }
 
+::placeholder {
+  color: black;
+}
 .search {
   background:none;
   border:none;
-  display: flex;
   font-family: "Roboto",
-   sans-serif;
-  margin-left: 25%;
+  sans-serif;
+font-size: 1rem;
+font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #555555;
-}
-.geoicon {
-  margin-right: -20%;
   margin-top: 10px;
+}
+.searchbar {
+  display: flex;
+ flex-direction: center;
+ justify-content: center;
+ margin-left: 70px;
+}
+
+.geoicon {
+  margin-top: 20px;
+  margin-right: 20px;
   color: black;
 }
 
@@ -164,7 +174,7 @@ margin-left: 10px;
 margin-bottom: 20px;
 border-radius: 20px;
 height: 35px;
-width: 85%;
+width: 87%;
 padding-left: 30px;
 padding-top: 20px;
 box-shadow: 0 5px 10px -2px #afafaf;
