@@ -64,7 +64,6 @@ z-index: 2;
 
 .logo {
   display: flex;
-  flex-direction: center;
   justify-content: center;
  box-shadow: 0 4px 2px -2px #afafaf;
   width: 100vw;
@@ -98,14 +97,13 @@ font-weight: bold;
 }
 .searchbar {
   display: flex;
- flex-direction: center;
  justify-content: center;
  margin-left: 70px;
 }
 
 .geoicon {
   margin-top: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
   color: black;
 }
 
@@ -117,6 +115,7 @@ font-weight: bold;
 
 .hero h1 {
   margin-left: 30px;
+  margin: auto;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
@@ -140,10 +139,11 @@ font-weight: bold;
   border-radius: 30px;
   height: 40px;
   width:100%;
+  max-width: 350px;
   font-family: "Roboto", sans-serif;
 }
 .boutonexplo {
-  margin-left: 20%;
+   margin: auto;
   width: 60%;
 }
 
@@ -175,14 +175,17 @@ margin-bottom: 20px;
 border-radius: 20px;
 height: 35px;
 width: 87%;
+max-width: 500px;
 padding-left: 30px;
 padding-top: 20px;
 box-shadow: 0 5px 10px -2px #afafaf;
 cursor: pointer;
 }
 
+
 .triple .etape {
-  margin-top: -58px;
+  margin-top: 0px;
+  margin-left: -40px;
   position: absolute;
   font-family: "Roboto",
   sans-serif;
@@ -195,6 +198,7 @@ cursor: pointer;
   padding-left: 6px;
   padding-top: 2px;
   height: 17px;
+  pointer-events: none;
 }
 
 .choixrestau :hover{
@@ -206,7 +210,7 @@ cursor: pointer;
   background-color: #efe2ff;
 }
 
-.degustez  :hover {
+.degustez :hover {
     color: #9356DC;
     background-color: #efe2ff; 
 }
@@ -215,7 +219,9 @@ cursor: pointer;
   margin-right: 30px;
 }
 
-
+.triplebutton p {
+  margin-top: 0px;
+}
 
 /* Cards Restaurant */
 
@@ -237,6 +243,7 @@ main h4 {
 .cardrestau img {
   object-fit: cover;
   width: 100%;
+  margin-right: -10px;
   height: 150px;
   border-style: solid;
   border-top: none;
@@ -335,4 +342,64 @@ footer a {
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+
+
+@media only screen and (min-width: 580px) {
+
+.boutonexplo {
+  margin: auto;
+  width: 30%;
+  max-width: 230px;
+}
+
+.triple {
+margin: auto;
+max-width: 390px;
+}
+
+.triplebutton .fa-solid {
+  margin-left: 60px;
+}
+
+.fonctionnement h3 {
+  text-align: center;
+}
+main h4 {
+  text-align: center;
+}
+
+.restaurants {
+ margin:auto;
+max-width: 500px;
+}
+
+.nouveau {
+  margin-left: 400px;
+}
+.coeur {
+  margin-left: 430px;
+}
+
+}
+
+@media only screen and (min-width: 690px) {
+
+  .triple {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 990px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .triplebutton .fa-solid {
+    margin-left: 0px;
+  }
+  .triplebutton p {
+  margin-left: -15px;
+  }
+
+
 }
