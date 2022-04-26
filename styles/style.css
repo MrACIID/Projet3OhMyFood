@@ -65,7 +65,7 @@ z-index: 2;
 .logo {
   display: flex;
   justify-content: center;
- box-shadow: 0 4px 2px -2px #afafaf;
+ box-shadow: 0 4px 2px -2px #d5d5d5;
   width: 100vw;
   margin-left: -10px;
 }
@@ -77,12 +77,12 @@ z-index: 2;
   margin-left: -10px;
   margin-top: 2px;
   width: 100vw;
-  background-color: #dfdfdf;
+  background-color: #eaeaea;
   height: 60px;
 }
 
 ::placeholder {
-  color: black;
+  color: #4a4a4a;
 }
 .search {
   background:none;
@@ -104,11 +104,20 @@ font-weight: bold;
 .geoicon {
   margin-top: 20px;
   margin-right: 10px;
-  color: black;
+  color: #353535;
 }
 
 
 /* HERO */
+
+.subhead {
+  background-color: #f6f6f6;
+  width: 100vw;
+  margin-left: -10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .hero {
   margin-top: 50px;
 }
@@ -141,6 +150,7 @@ font-weight: bold;
   width:100%;
   max-width: 350px;
   font-family: "Roboto", sans-serif;
+  box-shadow: 0 5px 10px -2px #afafaf;
 }
 .boutonexplo {
    margin: auto;
@@ -149,6 +159,7 @@ font-weight: bold;
 
 .boutonexplo :hover {
   background: linear-gradient(180deg, #fd95e0, #996bd1);;
+ box-shadow: 0 5px 10px -2px grey;
 }
 
 /* Fonctionnement */
@@ -207,12 +218,12 @@ cursor: pointer;
 }
 .compomenu :hover {
   color: #9356DC;
-  background-color: #efe2ff;
+  background-color: #efe2ff; 
 }
 
 .degustez :hover {
     color: #9356DC;
-    background-color: #efe2ff; 
+    background-color: #efe2ff;    
 }
 
 .triplebutton i {
@@ -224,6 +235,13 @@ cursor: pointer;
 }
 
 /* Cards Restaurant */
+main {
+  background-color: #f6f6f6;
+  width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: -10px;
+}
 
 main h4 {
   font-family: "Roboto",
@@ -231,6 +249,7 @@ main h4 {
   font-weight: bold;
   font-size: 1.3rem;
   margin-bottom: 30px;
+  margin-left: 10px;
 }
 
 .restaurants {
@@ -238,11 +257,12 @@ main h4 {
   flex-direction: column;
   gap:10px;
   margin-bottom: 60px;
+  margin-left: 10px;
 }
 
 .cardrestau img {
   object-fit: cover;
-  width: 100%;
+  width: 97%;
   margin-right: -10px;
   height: 150px;
   border-style: solid;
@@ -314,7 +334,7 @@ transition: all 350ms ease-in-out;
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #303030;
+  background-color: #353535;
   font-family:"Roboto",
   sans-serif; 
   color: white;
@@ -375,7 +395,7 @@ max-width: 500px;
 }
 
 .nouveau {
-  margin-left: 400px;
+  margin-left: 380px;
 }
 .coeur {
   margin-left: 430px;
