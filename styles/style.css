@@ -421,5 +421,25 @@ max-width: 500px;
   margin-left: -15px;
   }
 
+  .restaurants {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 500px;
+    max-width: 900px;
+    margin-left: auto;
+    padding-left: 10px;
+    gap: 30px;
+    
+  }
+  .cardrestau {
+    max-width: 500px;
+  }
+ 
+  .coeur {
+    margin-left: 290px;
+  }
+  .nouveau {
+    margin-left: 10px;
+  }
 
 }
