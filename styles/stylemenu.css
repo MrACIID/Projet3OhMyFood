@@ -170,29 +170,36 @@ opacity: 0;
     transition: all 0.5s ease;
 }
 
-.checkmark i {
+.boutonmenu:hover i  {
+    display: flex;
     font-size: 25px;
+    margin-top: 20px;
     color: white;
     animation: rotationcheck 0.5s both;
+    transform-origin: center 13px;
 }
-.checkmark {
+
+.checkmark i {
     display: none;
+}
+
+.checkmark {
     position: absolute;
-    align-items: center;
     background: #99E2D0;
     border-radius: 0 15px 15px 0;
     margin-top: -76px;
     right: 0px;   
     height: 70px;
-    padding: 0 13px;
+    width: 0px;
     transition: all 0.5s ease;
 }
 
 .boutonmenu:hover .checkmark {
     display: flex;
     animation: slide 0.5s ease;
-    transform-origin: right;
-    
+    transform-origin: 45px;
+    padding: 0 13px;
+    width: 25px;
 }
 
 .boutonmenu:hover .prix {
