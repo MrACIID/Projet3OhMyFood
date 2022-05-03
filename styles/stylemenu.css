@@ -328,20 +328,57 @@ footer a {
 
 
 @media only screen and (min-width: 425px) {
-
-   .repas h2,h3,h4 {
+    
+.repas h2,h3,h4 {
     margin:auto;
    }
 
-   .boutonmenu {
+.titre {
+    text-align: center;
+}
+.coeur {
+    margin-left: 75%;
+}
+
+.boutonmenu {
        max-width: 350px;
        margin: auto;
    }
 
-    .boutoncommande button {
+.boutoncommande button {
         width: 100%;
         max-width: 350px; 
     }
 
+    }
 
+@media only screen and (min-width: 1290px) {
+
+.subheadimg img {
+        height: 400px;
+    }
+.menu {
+    margin-top: -100px;
+}
+.titre {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.coeur {
+    margin-left: 60%;
+}
+
+.boutoncommande {
+    margin-top: 100px;
+}
+
+footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 1200px;
+}
     }

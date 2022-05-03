@@ -403,7 +403,7 @@ max-width: 500px;
 
 }
 
-@media only screen and (min-width: 690px) {
+@media only screen and (min-width: 718px) {
 
   .triple {
     display: flex;
@@ -435,11 +435,33 @@ max-width: 500px;
     max-width: 500px;
   }
  
-  .coeur {
+  .coeur { 
     margin-left: 290px;
   }
+
   .nouveau {
-    margin-left: 10px;
+    margin-left:240px;
+  }
+
+footer {
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+}
+
+
+@media only screen and (min-width: 850px) {
+
+  .coeur {
+    margin-left: 350px;
+  }
+  
+  .nouveau {
+    margin-left: 300px;
   }
 
 }
