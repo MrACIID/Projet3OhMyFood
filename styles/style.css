@@ -223,8 +223,13 @@ cursor: pointer;
     background-color: #efe2ff;    
 }
 
+.triplebutton:hover .fa-solid {
+  color: #9356DC;
+}
+
 .triplebutton i {
   margin-right: 30px;
+  color: gray;
 }
 
 .triplebutton p {
@@ -282,7 +287,9 @@ main h4 {
   sans-serif;
   width: 140px;
 }
-
+.cardrestau:hover img {
+  box-shadow: 0 5px 10px -2px #ff79da;
+}
 .coeur {
   position: absolute;
   width: 35px;  
